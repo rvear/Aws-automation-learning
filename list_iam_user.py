@@ -1,3 +1,5 @@
+'''This is the python script to list all the iam users in the aws account'''
+
 import boto3
 
 aws_management=boto3.session.Session(profile_name='default')
